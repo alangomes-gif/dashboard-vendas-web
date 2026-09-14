@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Vendas & Metricas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 Painel de Controle de Vendas</h1>
+            <p>Visão em tempo real do desempenho de vendas e indicadores de estoque.</p>
+        </header>
+
+        <section class="cards-grid">
+            <div class="card">
+                <h3>Faturamento Total</h3>
+                <p class="valor">R$ 45.850,00</p>
+                <span class="status positivo">+12% este mês</span>
+            </div>
+            <div class="card">
+                <h3>Pedidos Realizados</h3>
+                <p class="valor">1.240</p>
+                <span class="status positivo">+8% este mês</span>
+            </div>
+            <div class="card">
+                <h3>Ticket Médio</h3>
+                <p class="valor">R$ 185,00</p>
+                <span class="status neutro">Estável</span>
+            </div>
+        </section>
+
+        <section class="tabela-section">
+            <h2>Últimas Transações</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID Pedido</th>
+                        <th>Cliente</th>
+                        <th>Produto</th>
+                        <th>Valor</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-corpo">
+                    <!-- Preenchido dinamicamente via JavaScript -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

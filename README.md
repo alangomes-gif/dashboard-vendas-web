@@ -15,7 +15,7 @@ Interface web responsiva construída para exibição de métricas comerciais, in
 ## 🚀 Como Executar
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/SEU-USUARIO/dashboard-vendas-web.git
+   git clone https://github.com/alangomes-gif/dashboard-vendas-web.git
    ```
 2. Abra o arquivo `index.html` em qualquer navegador web.
 
